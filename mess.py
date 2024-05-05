@@ -75,7 +75,7 @@ while counter < 100:
             if 'photo' in result['message']:
                 photo_sizes = result['message']['photo']
                 photo_file_id = photo_sizes[-1]['file_id']
-                send_message(chat_id, 'Фото огонь')
+                send_message(chat_id, 'Фото огонь!')
 
             time.sleep(1)
             counter += 1
